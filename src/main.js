@@ -5,6 +5,8 @@ import App from './App'
 import router from './router'
 
 /* eslint-disable no-new */
+Vue.use(require('vue-resource'))
+
 new Vue({
   el: '#app',
   router,

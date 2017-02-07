@@ -1,13 +1,16 @@
 <template>
 <div id="index">
-  <banner/>
-  <about/>
+  <!-- <banner/>
+  <about/> -->
+  <card-deck/>
+
 </div>
 </template>
 
 <script>
 import Banner from 'components/Banner'
 import About from 'components/About'
+import CardDeck from 'components/CardDeck'
 export default {
   data () {
     return {
@@ -15,7 +18,7 @@ export default {
     }
   },
   components: {
-    Banner, About
+    Banner, About, CardDeck
   }
 }
 </script>
