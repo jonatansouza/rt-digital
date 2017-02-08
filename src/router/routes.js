@@ -1,8 +1,8 @@
-import Index from 'components/Index'
+import Home from 'components/Home'
 
 const RouterConfig = [{
   path: '/',
-  component: Index
+  component: Home
 }]
 
 export default RouterConfig

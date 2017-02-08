@@ -1,24 +1,18 @@
 <template>
 <div id="index">
-  <!-- <banner/>
-  <about/> -->
-  <card-deck/>
-
+  <banner/>
+  <about/>
+  <products/>
 </div>
 </template>
 
 <script>
 import Banner from 'components/Banner'
 import About from 'components/About'
-import CardDeck from 'components/CardDeck'
+import Products from 'components/Products'
 export default {
-  data () {
-    return {
-      msg: 'RT'
-    }
-  },
   components: {
-    Banner, About, CardDeck
+    Banner, About, Products
   }
 }
 </script>

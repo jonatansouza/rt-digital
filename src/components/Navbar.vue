@@ -46,7 +46,7 @@ export default {
 
 /* Side Menu */
 #sidebar-wrapper {
-  z-index: 1000;
+  z-index: 100;
   position: fixed;
   top: 0;
   right: 0;
@@ -100,7 +100,7 @@ export default {
   background: none;
 }
 #menu-toggle {
-  z-index: 1;
+  z-index: 10;
   position: fixed;
   top: 0;
   right: 0;
@@ -115,7 +115,7 @@ export default {
   transition: all 0.4s ease 0s;
 }
 .toggle {
-  margin: 5px 5px 0 0;
+  margin: 5px 10px 0 0;
 }
 
 
